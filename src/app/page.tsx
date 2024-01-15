@@ -25,7 +25,7 @@ export default function Home() {
       </div>
 
       <div className='w-4/5'>
-        <h1>Interaksjonsdesigner som brenner for brukervennlighet og universell utforming</h1>
+        <h1>Mer informasjon kommer snart</h1>
       </div>
 
       
