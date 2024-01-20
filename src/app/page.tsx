@@ -25,7 +25,8 @@ export default function Home() {
       </div>
 
       <div className='w-4/5'>
-        <h1>Mer informasjon kommer snart</h1>
+        <h1>Engajsert interaksjonsdesigner</h1>
+        <p>Jeg brenner for å designe løsninger som gjør hverdagen enklere for alle!</p>
       </div>
 
       
