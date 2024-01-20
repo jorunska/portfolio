@@ -14,7 +14,7 @@ export default function Home() {
           >
             {' '}
             <Image
-              src="../public/signature_2.png"
+              src="/public/signature_2.svg"
               alt="Joruns Logo"
               width={100}
               height={24}
