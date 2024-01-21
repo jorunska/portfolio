@@ -68,8 +68,8 @@ export default function Home() {
         <div className="card-body">
           <h2>Om meg</h2>
           <p>Jeg har en bachelorgrad innen interaksjonsdesign, og har stort engasjement for faget. I prosjekter er jeg opptatt av å designe løsninger som er brukervennlige med fokus på universell utforming.</p>
-          <p>Jeg har 3 års erfaring, hvor jeg har deltatt i tjenestedesignprosjekter og utforming av digitale løsninger.</p>
-          <button><a href='mailto:jorunskalnes.com'>Send meg en melding</a></button>
+          <p className='mb-5'>Jeg har 3 års erfaring, hvor jeg har deltatt i tjenestedesignprosjekter og utforming av digitale løsninger.</p>
+          <a className='button' href='mailto:jorunskalnes.com'>Send meg en melding</a>
         </div>
       </div>
 

@@ -17,6 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="no">
+      <head>
+      <meta name="keywords" content="interaksjonsdesign" />
+      <meta name="description" content="Joruns portfolio" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )

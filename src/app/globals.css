@@ -42,20 +42,16 @@ div {
   margin: 2% 0 2% 0;
 }
 
-button {
+.button {
   background-color: #7500D6 !important;
   border-radius: 50px !important;
   border: none !important;
   padding: 2% 5%;
-  margin-top: 5% !important;
+  margin-top: 10% !important;
   font-size: 18px !important;
-}
-
-button a {
-  color: white;
-  text-decoration: none;
+  color: white !important;
+  text-decoration: none !important;
   font-weight: bold;
-
 }
 
 .img-front {
