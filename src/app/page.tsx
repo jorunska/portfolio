@@ -9,12 +9,7 @@ export default function Home() {
       <div className='container'>
 
         <div>
-          <a
-
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+         
             {' '}
             <Image
               src="/signature_2.png"
@@ -23,7 +18,6 @@ export default function Home() {
               height={100}
               priority
             />
-          </a>
         </div>
         <div className='container-fluid mt-5'>
           <div className='row align-items-center'>

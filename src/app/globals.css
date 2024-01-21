@@ -56,6 +56,10 @@ img {
   font-weight: bold;
 }
 
+a:hover {
+  background-color: #540099 !important;
+}
+
 .img-front {
   width: 80%;
   border-radius: 10%;
