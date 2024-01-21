@@ -41,7 +41,9 @@ p {
 div {
   margin: 2% 0 2% 0;
 }
-
+img {
+  pointer-events: none;
+}
 .button {
   background-color: #7500D6 !important;
   border-radius: 50px !important;

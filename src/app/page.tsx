@@ -35,7 +35,7 @@ export default function Home() {
             <div className='col'>
               <img className='img-front'
                 src="/workshop.jpg"
-                alt="Joruns Logo"
+                alt="Bilde av post-its og en pc i bakgrunn"
               />
 
             </div>
@@ -64,7 +64,7 @@ export default function Home() {
 
       </div>
       <div className="card flex-md-row align-items-center" >
-        <img className="card-img" src="portrett-jorun.jpg" alt="Card image cap" />
+        <img className="card-img" src="portrett-jorun.jpg" alt="Portrett av Jorun Skålnes" />
         <div className="card-body">
           <h2>Om meg</h2>
           <p>Jeg har en bachelorgrad innen interaksjonsdesign, og har stort engasjement for faget. I prosjekter er jeg opptatt av å designe løsninger som er brukervennlige med fokus på universell utforming.</p>
