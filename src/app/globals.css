@@ -40,7 +40,7 @@ p {
 }
 
 div {
-  margin: 2% 0 2% 0;
+  margin: 4% 0 2% 0;
 }
 img {
   pointer-events: none;
@@ -81,6 +81,7 @@ a:hover {
   backface-visibility: hidden;
   background-repeat: no-repeat;
   z-index: -1;
+  margin: 0;
 }
 
 .card-img,
