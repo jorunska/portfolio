@@ -46,10 +46,10 @@ h3 {
   border-bottom: none !important;
   font-weight: bold;
   color: #000 !important;
-  padding: 0;
+  padding-left: 0 !important;
 }
-.nav-link:focus {
-  font-weight: bold;
+.active {
+  font-weight: bold !important;
 }
 
 footer {
@@ -62,7 +62,7 @@ footer {
 /* HOME PAGE */
 .header {
   height: 55vh;
-  width: 700px;
+  width: 60%;
 }
 .header p {
   padding-bottom: 5%;
@@ -159,34 +159,32 @@ a:hover {
   margin: 5%;
 }
 
-
-.projects {
-  padding: 2%;
+/* FRONT PAGE PROJECTS */
+.projects-box {
+  padding: 5%;
+  background-color: #B4BD8B !important;
+  border-radius: 2%;
+  width: 50vw;
 }
 
-.card-project {
-  background-color: #E5DCCD !important;
+.projects-box p {
+  font-size: 20px;
 }
-
-.card-project .card-title {
+.project-title {
   color: #000 !important;
   border-bottom: 2px solid #000 !important;
   transition: 1s !important;
   transition-timing-function: 1s ease-in !important;
   font-family: 'Playfair Display', serif;
-  width: 60%;
+  width: 70%;
 }
 
-.card-project .card-body p {
-  font-size: 22px;
-}
-
-.card-project .card-title:hover {
+.project-title:hover {
   color: #000 !important;
   padding-left: 5%;
 }
 
-.card-title::after {
+.project-title::after {
   font-family: 'bootstrap-icons';
   content: "\F138";
   justify-content: flex-end;
@@ -196,18 +194,10 @@ a:hover {
   color: #000;
 }
 
-.card-title:hover:after {
+.project-title:hover:after {
   opacity: 1;
   right: 10px;
 
-}
-
-.card-project img {
-  padding-right: 5%;
-}
-
-.card-project .card-body {
-  padding-top: 25%;
 }
 
 /* PROJECTS */
@@ -272,40 +262,53 @@ figure,
 /* HOME PAGE - SMALLER SCREEN */
 @media only screen and (max-width: 1000px) {
   h1 {
-    font-size: 50px !important;
-  }
-
-  .container {
-    padding-top: 10% !important;
+    font-size: 60px !important;
   }
 
   p {
     font-size: 18px;
   }
 
-  .container img {
-    margin-top: 8% !important;
-  }
+ .header {
+  width: 100%;
+  height: 45vh;
+ }
 
+ .bg-holder {
+  opacity: 0.4;
+ }
   .card-info {
     padding: 0 !important;
     margin: 0;
   }
 
-  .card-info img {
-    display: none;
+.card-info .card-img {
+    width: 60% !important;
+    padding: 8% 0 0 0;
   }
 
-  .card-project .card-body {
-    padding-top: 2% !important;
-  }
 
   .row {
     display: block !important;
   }
 
+  .projects-box {
+    width: 100%;
+  }
+
   footer {
     margin-top: 10% !important;
   }
+
+  /* PROJECTS UNDERPAGE */
+  .border-holder {
+    opacity: 0.4;
+  }
+  .projects-container .containers p {
+    width: 100%;
+    font-size: 20px;
+  }
+
+
 
 }

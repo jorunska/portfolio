@@ -6,22 +6,20 @@ export default function Happydogs() {
             <nav className="navbar navbar-expand-lg sticky-top">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">{' '}
-                        <Image
-                            src="/js-logo.svg"
-                            alt="Joruns Logo"
-                            width={80}
-                            height={80}
-                            priority
-                        /></a>
-                    <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav">
+                        <Image src="/js-logo.svg" alt="Joruns Logo" width={80} height={80} priority /></a>
+                    <div>
+                        <ul className="nav">
+                            <li className="nav-item active">
+                                <a className="nav-link" href="/prosjekter/happydogs">Prosjekter</a>
+                            </li>
                             <li className="nav-item">
-                                <a className="nav-link fw-bold" href="/prosjekter/happydogs">Prosjekter</a>
+                                <a className="nav-link" href="/#aboutme">Om meg</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+
             <div className="projects-container">
                 <div className="border-holder"></div>
                 <div className="containers">
@@ -74,7 +72,7 @@ export default function Happydogs() {
                 </figure>
             </div>
 
-    
+
             <footer className="footer text-center p-4 text-white">Nettsiden er designet og utviklet av Jorun Skålnes | 2024</footer>
         </main>
 
