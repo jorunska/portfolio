@@ -2,7 +2,7 @@ import Image from "next/image";
 import localFont from "next/font/local";
 
 const prata = localFont({
-  src: "./fonts/Prata-Regular.ttf",
+  src: "../../fonts/Prata-Regular.ttf",
   variable: "--font-prata-regular",
 });
 
