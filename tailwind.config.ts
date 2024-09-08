@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'midnight': '#C7DAEE',
+        'lightbrown': '#FCF4EA',
+        'happygreen': '#D6E5AC',
       },
     },
   },
