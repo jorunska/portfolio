@@ -13,7 +13,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="navbar bg-lightbrown max-lg:px-8 lg:px-16 2xl:px-36 fixed w-full">
         <div className="flex space-x-4 items-center max-sm:space-x-2">
-          <a href="/" className="py-1 pr-5">
+          <a href="/" className="py-1 pr-3">
             <Image
               alt="Logo Jorun Skålnes"
               src="/js-logo.svg"
