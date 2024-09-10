@@ -12,7 +12,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="navbar bg-lightbrown max-lg:px-8 lg:px-16 2xl:px-36 fixed w-full">
         <div className="flex space-x-4 items-center max-sm:space-x-3">
-          <a href="/" className="py-1 pr-5">
+          <a href="/" className="py-1 pr-3">
             <Image
               alt="Logo Jorun Skålnes"
               src="/js-logo.svg"
@@ -20,16 +20,16 @@ export default function Home() {
               height="0"
             />
           </a>
-          <a href="/#projects" className="px-3 py-3 hover:text-gray-500">
+          <a href="/#projects" className="px-2 py-3 hover:text-gray-500">
             Prosjekter
           </a>
           <a
             href="/om-meg"
-            className="px-3 py-3 hover:text-gray-500 italic font-bold"
+            className="px-2 py-3 hover:text-gray-500 italic font-bold"
           >
             Om meg
           </a>
-          <a href="#contact" className="px-3 py-3 hover:text-gray-500">
+          <a href="#contact" className="px-2 py-3 hover:text-gray-500">
             Kontakt
           </a>
         </div>
