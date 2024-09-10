@@ -12,7 +12,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col justify-between select-none">
       {/* Navbar */}
       <nav className="navbar bg-lightbrown max-lg:px-8 lg:px-16 2xl:px-36 fixed w-full">
-        <div className="flex space-x-4 items-center max-sm:space-x-3">
+        <div className="flex space-x-4 items-center max-sm:space-x-2">
           <a href="/" className="py-1 pr-5">
             <Image
               alt="Logo Jorun Skålnes"
