@@ -123,9 +123,9 @@ export default function Home() {
           Ta gjerne kontakt!
         </p>
         <div>
-          <button className="text-white py-2 px-4 hover:bg-black my-5">
+        <a href="mailto:jorunskalnes@icloud.com"> <button className="text-white py-2 px-4 hover:bg-black my-5">
             Kontakt meg
-          </button>
+          </button></a>
         </div>
       </div>
 

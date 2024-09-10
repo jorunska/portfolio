@@ -23,7 +23,7 @@ export default function Home() {
           <a href="/#projects" className="px-3 py-3 hover:text-gray-500">
             Prosjekter
           </a>
-          <a href="#" className="px-3 py-3 hover:text-gray-500">
+          <a href="/om-meg" className="px-3 py-3 hover:text-gray-500">
             Om meg
           </a>
           <a href="#contact" className="px-3 py-3 hover:text-gray-500">
