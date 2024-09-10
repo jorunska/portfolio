@@ -95,7 +95,7 @@ export default function Home() {
             <div>
               <Image
                 alt="Visning av logo til prosjektet Solskinn på en mobil"
-                src="/Solskinn-prosjekt.png"
+                src="/solskinn-prosjekt.png"
                 className="object-cover h-80 lg:h-96 shadow-xl mb-8"
                 width="650"
                 height="0"

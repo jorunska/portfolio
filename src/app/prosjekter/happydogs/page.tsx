@@ -11,7 +11,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col justify-between select-none">
       {/* Navbar */}
       <nav className="navbar bg-lightbrown max-lg:px-8 lg:px-16 2xl:px-36 fixed w-full">
-        <div className="flex space-x-4 items-center">
+        <div className="flex space-x-4 items-center max-sm:space-x-3">
           <a href="/" className="py-1 pr-5">
             <Image
               alt="Logo Jorun Skålnes"
@@ -69,7 +69,7 @@ export default function Home() {
       {/* List */}
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-28 space-y-5">
         <h2 className={prata.className}>Dette har jeg gjort for Happy Dogs:</h2>
-        <ul className="list-disc leading-loose px-14 py-10 max-md:px-10">
+        <ul className="list-disc leading-loose px-14 pt-10 max-md:px-10">
           <li>
             Rådgivning om merkevare, design, brukervennlighet og universell
             utforming
@@ -85,7 +85,7 @@ export default function Home() {
 
       {/* Reference */}
 
-      <div className="bg-happygreen max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mx-16 p-16 space-y-5 m-24">
+      <div className="bg-happygreen max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 space-y-5 p-16 mx-20 my-20 max-md:mx-8">
         <h3 className={prata.className}>Tilbakemelding fra Happy Dogs</h3>
         <p>
           Jorun har vært en stor ressurs og vært en viktig bidragsyter for å
@@ -107,7 +107,7 @@ export default function Home() {
       {/* Image gallery */}
 
       <div className="grid w-full place-items-center">
-        <div className="grid grid-cols-2 gap-10 max-lg:grid-cols-none px-8 mt-10">
+        <div className="grid grid-cols-2 gap-10 max-lg:grid-cols-none px-8">
           <div>
             <Image
               className="max-w-full shadow-lg"

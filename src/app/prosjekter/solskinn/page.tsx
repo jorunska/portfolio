@@ -10,7 +10,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col justify-between select-none">
       {/* Navbar */}
       <nav className="navbar bg-lightbrown max-lg:px-8 lg:px-16 2xl:px-36 fixed w-full">
-        <div className="flex space-x-4 items-center">
+        <div className="flex space-x-4 items-center max-sm:space-x-3">
           <a href="/" className="py-1 pr-5">
             <Image
               alt="Logo Jorun Skålnes"
@@ -69,7 +69,7 @@ export default function Home() {
 
       {/* green text box */}
 
-      <div className="bg-happygreen max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mx-16 p-16 space-y-5 m-24">
+      <div className="bg-happygreen max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 space-y-5 p-16 mx-20 my-20 max-md:mx-8">
         <h3 className={prata.className}>
           Problemstilling: Hvordan kan vi motivere pasienter til å møte til time
           ved DPS Poliklinikk Lillehammer?
@@ -110,7 +110,7 @@ export default function Home() {
 
       {/* green text box */}
 
-      <div className="bg-happygreen max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mx-16 p-16 space-y-5 m-24">
+      <div className="bg-happygreen max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 space-y-5 p-16 mx-20 my-20 max-md:mx-8">
         <h3 className={prata.className}>Min rolle i prosjektet</h3>
         <p>
           I dette prosjektet var jeg prosjektleder, og tok hovedansvar for
