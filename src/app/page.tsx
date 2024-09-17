@@ -150,10 +150,31 @@ export default function Home() {
             />
             <div className="space-y-5">
               <h3 className={prata.className}>Site Service Gruppen</h3>
-              <p>Videreutvikling og modernisering av visuell identitet og nettside</p>
+              <p>Nettside for leverandør innen telekommunikasjon</p>
               <div className="space-x-4">
                 <span className="bg-midnight px-2.5 py-0.5">UX</span>
                 <span className="bg-midnight px-2.5 py-0.5">Grafisk design</span>
+              </div>
+            </div>
+          </div>
+          </a>
+          {/* Project 5 */}
+          <a href="/prosjekter/underveis" className="projects">
+            <div>
+            <Image
+              alt="Visualisering av merkevaren til Underveis"
+              src="/underveis-visual.png"
+              className="object-cover h-80 lg:h-96 shadow-xl  mb-8"
+              width="650"
+              height="0"
+            />
+            <div className="space-y-5">
+              <h3 className={prata.className}>Underveis</h3>
+              <p>Digital lærebok om ungdom, risiko og trafikk</p>
+              <div className="space-x-4">
+                <span className="bg-midnight px-2.5 py-0.5">UX</span>
+                <span className="bg-midnight px-2.5 py-0.5">Rådgivning</span>
+                <span className="bg-midnight px-2.5 py-0.5">Tekst</span>
               </div>
             </div>
           </div>
