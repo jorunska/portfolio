@@ -43,7 +43,7 @@ export default function Home() {
           <p className="leading-normal my-5">
             Prosjektet Site Service Gruppen er utført i forbindelse med min tid
             hos Netspire. Min rolle har vært å bidra med videreutvikling og
-            design av nettside, samt bistand innen grafisk design.
+            design av visuell identitet og nettside, samt bistand innen grafisk design.
           </p>
           <p className="leading-normal">
             Site Service Gruppen leverer tjenester innen telekommunikasjon, og
