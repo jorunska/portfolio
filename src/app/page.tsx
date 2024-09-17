@@ -138,6 +138,26 @@ export default function Home() {
             </div>
           </div>
           </a>
+          {/* Project 4 */}
+          <a href="/prosjekter/site-service" className="projects">
+            <div>
+            <Image
+              alt="Visualisering av nettside på en laptop"
+              src="/site-service-mockup.png"
+              className="object-cover h-80 lg:h-96 shadow-xl  mb-8"
+              width="650"
+              height="0"
+            />
+            <div className="space-y-5">
+              <h3 className={prata.className}>Site Service Gruppen</h3>
+              <p>Videreutvikling og modernisering av visuell identitet og nettside</p>
+              <div className="space-x-4">
+                <span className="bg-midnight px-2.5 py-0.5">UX</span>
+                <span className="bg-midnight px-2.5 py-0.5">Grafisk design</span>
+              </div>
+            </div>
+          </div>
+          </a>
           </div>
         </div>
       </div>

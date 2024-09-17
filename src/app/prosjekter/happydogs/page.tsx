@@ -69,7 +69,7 @@ export default function Home() {
       {/* List */}
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-28 space-y-5">
         <h2 className={prata.className}>Dette har jeg gjort for Happy Dogs:</h2>
-        <ul className="list-disc leading-loose px-14 pt-10 max-md:px-10">
+        <ul className="list-disc leading-loose px-14 pt-5 max-md:px-10">
           <li>
             Rådgivning om merkevare, design, brukervennlighet og universell
             utforming
@@ -112,7 +112,7 @@ export default function Home() {
             <Image
               className="max-w-full shadow-lg"
               src="/happydogs-some-poster.png"
-              alt=""
+              alt="Visning av ulike maler til sosiale medier poster"
               width="500"
               height="0"
             />
