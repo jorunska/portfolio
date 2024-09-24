@@ -35,21 +35,21 @@ export default function Home() {
       {/* Header */}
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-48">
         <div className="w-10/12 max-md:w-full">
-          <h1 className={prata.className}>Underveis</h1>
+          <h1 className={prata.className}>Hytteveggbilder</h1>
           <div className="space-x-4 my-5">
             <span className="bg-midnight px-2.5 py-0.5">UX</span>
             <span className="bg-midnight px-2.5 py-0.5">Rådgivning</span>
-            <span className="bg-midnight px-2.5 py-0.5">Tekst</span>
           </div>
           <p className="leading-normal my-5">
-            Prosjektet Underveis er utført i forbindelse med min tid hos
-            Netspire. Min rolle har vært å bidra med å designe nettside og sørge
-            for at den digitale læreboka er brukervennlig og forståelig for alle
-            brukergrupper.
+            Denne kunden var helt i oppstartsfasen når samarbeidet ble startet,
+            og jeg har bistått kunden med utvikling av visuell identitet og
+            nettbutikk. Prosjektet ble gjennomført i forbindelse med min tid i
+            Netspire.
           </p>
           <p className="leading-normal">
-            Underveis er en digital lærebok om ungdom, risiko og trafikk, og
-            tilhører Trygg Trafikk.
+            Hytteveggbilder er en nettbutikk hvor du kan handle eksklusive
+            bilder til hytteveggen. Målet var å designe en nettbutikk med fokus
+            på kvalitet.
           </p>
         </div>
       </div>
@@ -58,8 +58,8 @@ export default function Home() {
 
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
         <Image
-          alt="Skjermbilde av digital lærebok"
-          src="/underveis-book.png"
+          alt="Nettbutikken til Hytteveggbilder vises på en bærebar datamaskin"
+          src="/hytteveggbilder-project.jpg"
           width="800"
           height="0"
         />
@@ -67,42 +67,48 @@ export default function Home() {
 
       {/* List */}
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-28 space-y-5">
-        <h2 className={prata.className}>Dette har jeg gjort for Underveis:</h2>
+        <h2 className={prata.className}>
+          Dette har jeg gjort for Hytteveggbilder:
+        </h2>
         <ul className="list-disc leading-loose px-14 pt-5 max-md:px-10">
           <li>Rådgivning rundt brukervennlighet og universell utforming</li>
-          <li>Utforming av digital lærebok</li>
-          <li>Skisser og design av nettside</li>
-          <li>Innholdsproduksjon i samarbeid med kunde</li>
-          <li>Idemyldring for videreføring av prosjekt</li>
+          <li>Utforming av visuell identitet – fonter og farger</li>
+          <li>Skisser og design av nettbutikk</li>
+          <li>Opplæring av kunde i Wordpress og WooCommerce</li>
+          <li>Oppfølging av kunde for videreutvikling</li>
         </ul>
       </div>
 
       {/* Green box */}
 
       <div className="bg-happygreen max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 space-y-5 p-16 mx-20 my-20 max-md:mx-8">
-        <h3 className={prata.className}>Underveis er en digital lærebok</h3>
+        <h3 className={prata.className}>
+          Hytteveggbilder selger eksklusive bilder
+        </h3>
         <p>
-          Kunden tok kontakt for å få hjelp til å sørge for at innholdet til en
-          digital lærebok ble presentert på en brukervennlig måte. Min jobb ble
-          å utforme boka i et kursprogram som heter Rise 360, hvor jeg fokuserte
-          på at oppsettet skulle være ryddig og enkelt å navigere for brukere.
+          Kunden tok kontakt for å få hjelp til å sette opp en nettbutikk til
+          sin nyoppstartede bedrift. Det var viktig at nettbutikken reflekterte
+          ekslusivitet og kvalitet, noe som var viktig for å skille seg ut fra
+          konkurrentene. Ved utvikling hadde jeg fokus på at nettbutikken skulle
+          oppleves ryddig og oversiktlig for sluttbrukere.
         </p>
         <p>
-          Logo og farger var allerede utviklet til Underveis, og jeg brukte
-          dette for å forme både den digitale boka og nettsiden. Kunden deltok
-          aktivt i alle faser og kom med sine innspill. 
+          Til den visuelle profilen ble det valgt å bruke fargene gull, beige og
+          mørk brun for å fremme ekslusivitet. Logo har kunden selv utviklet.
+          Kunden deltok aktivt i alle faser av prosjektet og kom med sine
+          innspill.
         </p>
       </div>
 
-       {/* Image gallery */}
+      {/* Image gallery */}
 
-       <div className="grid w-full place-items-center">
+      <div className="grid w-full place-items-center">
         <div className="grid grid-cols-2 gap-10 max-lg:grid-cols-none px-8">
           <div>
             <Image
               className="max-w-full"
-              src="/underveis-book-chapter.png"
-              alt="Visning av et kapittel i den digitale boka til Underveis"
+              src="/hytteveggbilder-products.png"
+              alt="Visning av produktene i nettbutikken til Hytteveggbilder"
               width="500"
               height="0"
             />
@@ -110,15 +116,14 @@ export default function Home() {
           <div>
             <Image
               className="max-w-full"
-              src="/underveis-text.png"
-              alt="Visning av en artikkel publisert på nettsiden til Underveis"
+              src="/hytteveggbilder-frontpage.png"
+              alt="Visning av en seksjon på forsiden til Hytteveggbilder"
               width="500"
               height="0"
             />
           </div>
         </div>
       </div>
-
 
       {/* Footer */}
       <div
