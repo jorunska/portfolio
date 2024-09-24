@@ -207,7 +207,8 @@ export default function Home() {
           className="underline underline-offset-2"
         >
           Følg meg på LinkedIn
-        </a>{" "}
+        </a>{" "} og <a href="https://www.instagram.com/skaalnes.no/"
+          className="underline underline-offset-2">Instagram</a>
       </footer>
     </main>
   );
