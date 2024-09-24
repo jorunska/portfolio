@@ -31,6 +31,7 @@ export default function Home() {
         </div>
       </nav>
 
+      {/* ---------------- NEW SECTION ------------------ */}
       {/* Header */}
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-48">
         <div className="w-10/12 max-md:w-full">
@@ -50,6 +51,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/* ---------------- NEW SECTION ------------------ */}
       {/* Image */}
 
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
@@ -62,15 +64,16 @@ export default function Home() {
         />
       </div>
 
+{/* ---------------- NEW SECTION ------------------ */}
 {/* Footer */}
 <div
-        className="max-lg:px-8 lg:px-20 2xl:px-36 p-16 bg-midnight mt-36"
+        className="max-lg:px-8 lg:px-20 2xl:px-36 p-16 mt-36"
         id="contact"
       >
         <h2 className={prata.className}>Skal vi ta en kaffe?</h2>
-        <p className="text-2xl max-md:text-xl my-5">
+        <p className="text-2xl max-md:text-xl my-5 lg:pr-48">
           Ønsker du å bli bedre kjent eller har et spennende prosjekt på gang?
-          Ta gjerne kontakt!
+          Ta gjerne kontakt for en uforpliktende prat.
         </p>
         <div>
          <a href="mailto:jorunskalnes@icloud.com"> <button className="text-white py-2 px-4 hover:bg-black my-5">

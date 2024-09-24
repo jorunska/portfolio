@@ -35,6 +35,7 @@ export default function Home() {
         </div>
       </nav>
 
+      {/* ---------------- NEW SECTION ------------------ */}
       {/* About me */}
       <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 space-x-12 max-md:space-x-0 mt-36">
         <div className="w-2/5 max-md:w-full max-sm:pb-0">
@@ -64,6 +65,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/* ---------------- NEW SECTION ------------------ */}
       {/* List with experience */}
       {/* List */}
       <div className="max-lg:px-8 lg:px-20 2xl:px-36 mt-28">
@@ -74,6 +76,7 @@ export default function Home() {
             <li>UX-design</li>
             <li>Brukervennlighet og universell utforming</li>
             <li>Design av digitale løsninger</li>
+            <li>Innholdsproduksjon</li>
             <li>Grafisk design</li>
           </ul>
           <ul className="list-disc leading-loose px-14 max-md:px-10 space-y-2 pt-10 max-md:pt-2">
@@ -86,6 +89,7 @@ export default function Home() {
         </div>
       </div>
 
+     {/* ---------------- NEW SECTION ------------------ */}
       {/* Section 3 - more information about me */}
       <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 space-x-12 max-md:space-x-0 mt-36">
         <div className="w-2/5 max-md:w-full max-sm:pb-0">
@@ -99,33 +103,87 @@ export default function Home() {
         <div className="w-3/5 max-md:pt-10 max-md:w-full">
           <h2 className={prata.className}>Jeg er en engasjert designer!</h2>
           <p className="leading-normal my-5">
-            Jeg brenner for å utvikle brukervennlige løsninger, og synes det er
-            viktig å ha fokus på i vårt digitale samfunn. I tillegg er jeg
-            opptatt av å oppfylle krav til universell utforming, slik at alle
-            får mulighet til å bruke de digitale løsningene som finnes der ute i
-            dag.
+            Min største styrke er mitt store engasjement for både kreativitet og
+            teknologi. Jeg kan hjelpe din bedrift med design av nettside
+            eller andre digitale løsnigner, innholdsproduksjon til sosiale
+            medier, rådgivning og andre designtjenester. 
           </p>
           <p>
-            Som person er jeg ryddig, strukturert og effektiv, og er opptatt av
-            å levere høy kvalitet.
+            I tillegg har jeg kompetanse om brukervennlighet og universell
+            utforming, og leverer alltid tjenester med dette i fokus. 
           </p>
         </div>
       </div>
 
+    {/* ---------------- NEW SECTION ------------------ */}
+      {/* Section 4 - more information about me */}
+      <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 space-x-12 max-md:space-x-0 mt-36">
+        <div className="w-3/5 max-md:pt-10 max-md:w-full">
+          <h2 className={prata.className}>Hvordan jobber jeg?</h2>
+          <p className="leading-normal my-5">
+            Jeg brenner for å hjelpe små og store bedrifter med å løse deres
+            behov og utfordringer. For å forstå behov setter jeg meg godt inn i
+            bedriften og hvem kunden er. Du som kunde blir inkludert i alle
+            faser i prosjektet, slik at du får mulighet til å dele dine innspill
+            og kompetanse.
+          </p>
+          <p>
+            Når du samarbeider med meg får du med deg en som er opptatt av
+            kvalitet, og som leverer tjenester på en effektiv og ryddig måte. I
+            tillegg er jeg opptatt av å skape godt samarbeid og stiller opp der
+            det trengs.
+          </p>
+        </div>
+        <div className="w-2/5 max-md:w-full max-sm:pb-0">
+          <Image
+            alt="En kvinne står med ryggen til og skriver på en tavle som henger på veggen"
+            src="/jorun-tavle.jpg"
+            width="430"
+            height="0"
+          />
+        </div>
+      </div>
+
+   {/* ---------------- NEW SECTION ------------------ */}
+   {/* Reference */}
+
+   <div className="bg-happygreen max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 space-y-5 p-16 mx-20 my-20 max-md:mx-8">
+        <h3 className={prata.className}>Hva andre sier om meg</h3>
+        <p>
+          Jorun har vært en stor ressurs og vært en viktig bidragsyter for å
+          heve det visuelle uttrykket på sosiale medier, utvikle et smakfullt
+          design og god brukervennlighet for Saas-plattformen Happy Dogs.
+        </p>
+        <p>
+          Hun har hatt verdifulle innspill på problemstillinger vi har møtt og
+          har hevet kvaliteten betraktelig. Jorun har utviklet templates for
+          sosiale medier og ikoner som står i stil med designet og fargepaletten
+          vår. Jeg kan virkelig anbefale henne videre!
+        </p>
+        <p className="italic">
+          {" "}
+          – Marie H. Gjerde, CEO & Co-founder Happy Dogs
+        </p>
+      </div>
+
+      {/* ---------------- NEW SECTION ------------------ */}
       {/* Footer */}
       <div
-        className="max-lg:px-8 lg:px-20 2xl:px-36 p-16 bg-midnight mt-36"
+        className="max-lg:px-8 lg:px-20 2xl:px-36 p-16 mt-8"
         id="contact"
       >
         <h2 className={prata.className}>Skal vi ta en kaffe?</h2>
-        <p className="text-2xl max-md:text-xl my-5">
+        <p className="text-2xl max-md:text-xl my-5 lg:pr-48">
           Ønsker du å bli bedre kjent eller har et spennende prosjekt på gang?
-          Ta gjerne kontakt!
+          Ta gjerne kontakt for å diskutere et samarbeid eller for å ta en uforpliktende prat!
         </p>
         <div>
-        <a href="mailto:jorunskalnes@icloud.com"> <button className="text-white py-2 px-4 hover:bg-black my-5">
-            Kontakt meg
-          </button></a>
+          <a href="mailto:jorunskalnes@icloud.com">
+            {" "}
+            <button className="text-white py-2 px-4 hover:bg-black my-5">
+              Kontakt meg
+            </button>
+          </a>
         </div>
       </div>
 

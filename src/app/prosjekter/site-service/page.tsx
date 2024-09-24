@@ -32,6 +32,7 @@ export default function Home() {
         </div>
       </nav>
 
+      {/* ---------------- NEW SECTION ------------------ */}
       {/* Header */}
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-48">
         <div className="w-10/12 max-md:w-full">
@@ -43,7 +44,8 @@ export default function Home() {
           <p className="leading-normal my-5">
             Prosjektet Site Service Gruppen er utført i forbindelse med min tid
             hos Netspire. Min rolle har vært å bidra med videreutvikling og
-            design av visuell identitet og nettside, samt bistand innen grafisk design.
+            design av visuell identitet og nettside, samt bistand innen grafisk
+            design.
           </p>
           <p className="leading-normal">
             Site Service Gruppen leverer tjenester innen telekommunikasjon, og
@@ -52,6 +54,7 @@ export default function Home() {
         </div>
       </div>
 
+     {/* ---------------- NEW SECTION ------------------ */}
       {/* Image */}
 
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
@@ -63,6 +66,7 @@ export default function Home() {
         />
       </div>
 
+     {/* ---------------- NEW SECTION ------------------ */}
       {/* List */}
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-28 space-y-5">
         <h2 className={prata.className}>
@@ -83,6 +87,7 @@ export default function Home() {
         </ul>
       </div>
 
+     {/* ---------------- NEW SECTION ------------------ */}
       {/* Reference */}
 
       <div className="bg-happygreen max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 space-y-5 p-16 mx-20 my-20 max-md:mx-8">
@@ -104,9 +109,10 @@ export default function Home() {
         </p>
       </div>
 
-         {/* Image gallery */}
+      {/* ---------------- NEW SECTION ------------------ */}
+      {/* Image gallery */}
 
-         <div className="grid w-full place-items-center">
+      <div className="grid w-full place-items-center">
         <div className="grid grid-cols-2 gap-10 max-lg:grid-cols-none px-8">
           <div>
             <Image
@@ -129,7 +135,7 @@ export default function Home() {
         </div>
       </div>
 
-
+      {/* ---------------- NEW SECTION ------------------ */}
       {/* List */}
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 space-y-5">
         <h2 className={prata.className}>
@@ -139,7 +145,7 @@ export default function Home() {
           Jeg har vært aktiv i utvikling av prosessen og rutinen rundt levering
           av nettsider. I dette prosjektet har kunden deltatt aktivt i alle
           faser, og har hatt mulighet til å komme med innspill som sikret at
-          kundens behov ble oppfylt i hele prosjektet. 
+          kundens behov ble oppfylt i hele prosjektet.
         </p>
         <ul className="list-disc leading-loose px-14 pt-5 max-md:px-10 pb-10">
           <li>Workshop</li>
@@ -151,28 +157,29 @@ export default function Home() {
         </ul>
       </div>
 
-            {/* Image */}
+      {/* ---------------- NEW SECTION ------------------ */}
+      {/* Image */}
 
-            <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
+      <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
         <Image
-           src="/site-service-atlanterhavsveien.jpg"
-              alt="Bilde fra Atlanterhavsveien med utsikt over bro, fjell og sjø"
+          src="/site-service-atlanterhavsveien.jpg"
+          alt="Bilde fra Atlanterhavsveien med utsikt over bro, fjell og sjø"
           width="800"
           height="0"
         />
       </div>
 
-
-
+      {/* ---------------- NEW SECTION ------------------ */}
       {/* Footer */}
       <div
-        className="max-lg:px-8 lg:px-20 2xl:px-36 p-16 bg-midnight mt-36"
+        className="max-lg:px-8 lg:px-20 2xl:px-36 p-16 mt-36"
         id="contact"
       >
         <h2 className={prata.className}>Skal vi ta en kaffe?</h2>
-        <p className="text-2xl max-md:text-xl my-5">
-          Ønsker du å bli bedre kjent eller har et spennende prosjekt på gang?
-          Ta gjerne kontakt!
+        <p className="text-2xl max-md:text-xl my-5 lg:pr-48">
+          Har du behov for design av nettside og videreutvikling av visuell
+          identitet? Eller andre spennende prosjekter? Ta gjerne kontakt for å
+          høre hvordan jeg kan hjelpe.
         </p>
         <div>
           <a href="mailto:jorunskalnes@icloud.com">

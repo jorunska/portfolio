@@ -32,6 +32,7 @@ export default function Home() {
         </div>
       </nav>
 
+      {/* ---------------- NEW SECTION ------------------ */}
       {/* Header */}
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-48">
         <div className="w-10/12 max-md:w-full">
@@ -54,6 +55,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/* ---------------- NEW SECTION ------------------ */}
       {/* Image */}
 
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
@@ -65,6 +67,7 @@ export default function Home() {
         />
       </div>
 
+      {/* ---------------- NEW SECTION ------------------ */}      
       {/* List */}
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-28 space-y-5">
         <h2 className={prata.className}>Dette har jeg gjort for Underveis:</h2>
@@ -77,6 +80,7 @@ export default function Home() {
         </ul>
       </div>
 
+      {/* ---------------- NEW SECTION ------------------ */}
       {/* Green box */}
 
       <div className="bg-happygreen max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 space-y-5 p-16 mx-20 my-20 max-md:mx-8">
@@ -90,13 +94,14 @@ export default function Home() {
         <p>
           Logo og farger var allerede utviklet til Underveis, og jeg brukte
           dette for å forme både den digitale boka og nettsiden. Kunden deltok
-          aktivt i alle faser og kom med sine innspill. 
+          aktivt i alle faser og kom med sine innspill.
         </p>
       </div>
 
-       {/* Image gallery */}
+      {/* ---------------- NEW SECTION ------------------ */}
+      {/* Image gallery */}
 
-       <div className="grid w-full place-items-center">
+      <div className="grid w-full place-items-center">
         <div className="grid grid-cols-2 gap-10 max-lg:grid-cols-none px-8">
           <div>
             <Image
@@ -119,16 +124,14 @@ export default function Home() {
         </div>
       </div>
 
-
+      {/* ---------------- NEW SECTION ------------------ */}
       {/* Footer */}
-      <div
-        className="max-lg:px-8 lg:px-20 2xl:px-36 p-16 bg-midnight mt-36"
-        id="contact"
-      >
+      <div className="max-lg:px-8 lg:px-20 2xl:px-36 p-16 mt-36" id="contact">
         <h2 className={prata.className}>Skal vi ta en kaffe?</h2>
-        <p className="text-2xl max-md:text-xl my-5">
-          Ønsker du å bli bedre kjent eller har et spennende prosjekt på gang?
-          Ta gjerne kontakt!
+        <p className="text-2xl max-md:text-xl my-5 lg:pr-48">
+          Har du en digital lærebok eller kurs du ønsker å utvikle? Eller
+          trenger hjelp med design av andre digitale løsnigner? Gjerne ta
+          kontakt for en uforpliktende prat.
         </p>
         <div>
           <a href="mailto:jorunskalnes@icloud.com">
