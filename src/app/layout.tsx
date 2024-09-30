@@ -23,7 +23,7 @@ const roboto = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Jorun Skålnes - designer",
+  title: "Jorun Skålnes - Designer",
   description:
     "Jeg er en engasjert designer som har erfaring med å designe digitale løsninger, innholdsproduksjon og andre designtjenester. I tillegg har jeg kompetanse om brukervennlighet og universell utforming",
 };
