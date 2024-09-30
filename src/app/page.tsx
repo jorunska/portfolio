@@ -172,7 +172,7 @@ export default function Home() {
 
 
             {/* Project 5 */}
-            <a href="/prosjekter/hytteveggbilder" className="projects">
+            <a href="/prosjekter/limafoto" className="projects">
               <div>
                 <Image
                   alt="En ugle ute i natur"
