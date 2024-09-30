@@ -157,6 +157,18 @@ export default function Home() {
         </ul>
       </div>
 
+ {/* ---------------- NEW SECTION ------------------ */}
+      {/* Image wide */}
+
+      <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
+        <Image
+          alt="Skjermbilder fra nettsiden til Site Service"
+          src="/site-service-website-pages.png"
+          width="1000"
+          height="0"
+        />
+      </div>
+
       {/* ---------------- NEW SECTION ------------------ */}
       {/* Image */}
 

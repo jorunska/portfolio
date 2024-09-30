@@ -102,7 +102,7 @@ export default function Home() {
       </div>
 
       {/* ---------------- NEW SECTION ------------------ */}
-      {/* Image */}
+      {/* Image wide */}
 
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
         <Image
