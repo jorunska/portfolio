@@ -39,8 +39,9 @@ export default function Home() {
         <div className="w-3/5 max-md:w-full max-md:pb-16">
           <h1 className={prata.className}>Hei, jeg heter Jorun!</h1>
           <p className="text-2xl max-md:text-xl leading-normal my-5 lg:pr-25">
-            Jeg er en engasjert designer som har erfaring med å
-            designe digitale brukervennlige løsninger, innholdsproduksjon og andre designtjenester.
+            Jeg er en engasjert designer som har erfaring med å designe digitale
+            brukervennlige løsninger, innholdsproduksjon og andre
+            designtjenester.
           </p>
           <div>
             <a href="#contact">
@@ -170,7 +171,6 @@ export default function Home() {
               </div>
             </a>
 
-
             {/* Project 5 */}
             <a href="/prosjekter/limafoto" className="projects">
               <div>
@@ -186,9 +186,7 @@ export default function Home() {
                   <p>Nettside for bedrift som tilbyr fotografering</p>
                   <div className="space-x-4">
                     <span className="bg-midnight px-2.5 py-0.5">UX</span>
-                    <span className="bg-midnight px-2.5 py-0.5">
-                      Tekst
-                    </span>
+                    <span className="bg-midnight px-2.5 py-0.5">Tekst</span>
                     <span className="bg-midnight px-2.5 py-0.5">
                       Grafisk design
                     </span>
@@ -209,12 +207,13 @@ export default function Home() {
                 />
                 <div className="space-y-5">
                   <h3 className={prata.className}>Alimenta</h3>
-                  <p>Nettside for bedrift som leverer ingredienser til matprodusenter</p>
+                  <p>
+                    Nettside for bedrift som leverer ingredienser til
+                    matprodusenter
+                  </p>
                   <div className="space-x-4">
                     <span className="bg-midnight px-2.5 py-0.5">UX</span>
-                    <span className="bg-midnight px-2.5 py-0.5">
-                      Tekst
-                    </span>
+                    <span className="bg-midnight px-2.5 py-0.5">Tekst</span>
                     <span className="bg-midnight px-2.5 py-0.5">
                       Grafisk design
                     </span>
@@ -223,6 +222,27 @@ export default function Home() {
               </div>
             </a>
 
+            {/* Project 7 */}
+            <a href="/prosjekter/kredittforum" className="projects">
+              <div>
+                <Image
+                  alt="Skjermbilde av forsiden til nettsiden til Norsk Kredittforum"
+                  src="/kredittforum-website.png"
+                  className="object-cover h-80 lg:h-96 shadow-xl  mb-8"
+                  width="650"
+                  height="0"
+                />
+                <div className="space-y-5">
+                  <h3 className={prata.className}>Norsk Kredittforum</h3>
+                  <p>
+                    Nettside for frivillig organisasjon innen finans, økonomi og kreditt
+                  </p>
+                  <div className="space-x-4">
+                    <span className="bg-midnight px-2.5 py-0.5">UX</span>
+                  </div>
+                </div>
+              </div>
+            </a>
 
             {/* Project */}
             <a href="/prosjekter/indre-matre" className="projects">
@@ -306,7 +326,6 @@ export default function Home() {
         </div>
       </div>
 
-
       {/* ---------------- NEW SECTION ------------------ */}
       {/* Footer */}
       <div className="max-lg:px-8 lg:px-20 2xl:px-36 p-16 mt-36" id="contact">
@@ -333,8 +352,14 @@ export default function Home() {
           className="underline underline-offset-2"
         >
           Følg meg på LinkedIn
-        </a>{" "} og <a href="https://www.instagram.com/skaalnes.no/"
-          className="underline underline-offset-2">Instagram</a>
+        </a>{" "}
+        og{" "}
+        <a
+          href="https://www.instagram.com/skaalnes.no/"
+          className="underline underline-offset-2"
+        >
+          Instagram
+        </a>
       </footer>
     </main>
   );
