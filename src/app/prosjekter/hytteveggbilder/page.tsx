@@ -104,30 +104,16 @@ export default function Home() {
         </p>
       </div>
 
-     {/* ---------------- NEW SECTION ------------------ */}
-      {/* Image gallery */}
+    {/* ---------------- NEW SECTION ------------------ */}
+      {/* Image wide */}
 
-      <div className="grid w-full place-items-center">
-        <div className="grid grid-cols-2 gap-10 max-lg:grid-cols-none px-8">
-          <div>
-            <Image
-              className="max-w-full"
-              src="/hytteveggbilder-products.png"
-              alt="Visning av produktene i nettbutikken til Hytteveggbilder"
-              width="500"
-              height="0"
-            />
-          </div>
-          <div>
-            <Image
-              className="max-w-full"
-              src="/hytteveggbilder-frontpage.png"
-              alt="Visning av en seksjon på forsiden til Hytteveggbilder"
-              width="500"
-              height="0"
-            />
-          </div>
-        </div>
+      <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
+        <Image
+          alt="Skjermbilder fra nettsiden til Hytteveggbilder"
+          src="/hytteveggbilder-pages.png"
+          width="1000"
+          height="0"
+        />
       </div>
 
      {/* ---------------- NEW SECTION ------------------ */}
