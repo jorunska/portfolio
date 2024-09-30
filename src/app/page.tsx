@@ -170,7 +170,34 @@ export default function Home() {
               </div>
             </a>
 
+
             {/* Project 5 */}
+            <a href="/prosjekter/hytteveggbilder" className="projects">
+              <div>
+                <Image
+                  alt="En ugle ute i natur"
+                  src="/limafoto-nettside-3.jpg"
+                  className="object-cover h-80 lg:h-96 shadow-xl  mb-8"
+                  width="650"
+                  height="0"
+                />
+                <div className="space-y-5">
+                  <h3 className={prata.className}>Lima Foto</h3>
+                  <p>Nettside for bedrift som tilbyr fotografering</p>
+                  <div className="space-x-4">
+                    <span className="bg-midnight px-2.5 py-0.5">UX</span>
+                    <span className="bg-midnight px-2.5 py-0.5">
+                      Tekst
+                    </span>
+                    <span className="bg-midnight px-2.5 py-0.5">
+                      Grafisk design
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            {/* Project */}
             <a href="/prosjekter/indre-matre" className="projects">
               <div>
                 <Image
@@ -191,7 +218,7 @@ export default function Home() {
               </div>
             </a>
 
-            {/* Project 6 */}
+            {/* Project */}
             <a href="/prosjekter/solskinn" className="projects">
               <div>
                 <Image
