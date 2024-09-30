@@ -60,7 +60,7 @@ export default function Home() {
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
         <Image
           alt="Bilde av en bærebar datamaskin som viser nettsiden til Lima Foto"
-          src="/limafoto-nettside-3.jpg"
+          src="/limafoto-website-3.jpg"
           className="shadow-lg"
           width="800"
           height="0"

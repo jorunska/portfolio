@@ -175,8 +175,8 @@ export default function Home() {
             <a href="/prosjekter/limafoto" className="projects">
               <div>
                 <Image
-                  alt="En ugle ute i natur"
-                  src="/limafoto-nettside-3.jpg"
+                  alt="Bilde av en bærebar datamaskin som viser nettsiden til Lima Foto"
+                  src="/limafoto-website-3.jpg"
                   className="object-cover h-80 lg:h-96 shadow-xl  mb-8"
                   width="650"
                   height="0"
