@@ -41,42 +41,18 @@ export default function Home() {
             <span className="bg-midnight px-2.5 py-0.5">UX</span>
           </div>
           <p className="leading-normal my-5">
-            For Folkets Hagan har jeg designet deres nettside. Prosjektet ble
-            gjennomført i forbindelse med min tid i Netspire.
+            For Folkets Hagan har jeg designet deres nettside. Jeg har også
+            hjulpet kunden med oppdatering av innhold på nettsiden ved behov.
+            Prosjektet ble gjennomført i forbindelse med min tid i Netspire.
           </p>
           <p className="leading-normal">
-            Folkets Hagan er en lokal restaurant og bar som holder til i Nittedal. 
+            Folkets Hagan er en lokal restaurant og bar som holder til i
+            Nittedal.
           </p>
         </div>
       </div>
 
       {/* ---------------- NEW SECTION ------------------ */}
-      {/* Image */}
-
-      <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
-        <Image
-          alt="Bilde fra en restaurant med fokus på en rett på en tallerken"
-          src="/folkets-restaurant.jpg"
-          className="shadow-lg"
-          width="800"
-          height="0"
-        />
-      </div>
-
-      {/* ---------------- NEW SECTION ------------------ */}
-      {/* List */}
-      <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-28 space-y-5">
-        <h2 className={prata.className}>Dette har jeg gjort for Norsk Kredittforum:</h2>
-        <ul className="list-disc leading-loose px-14 pt-5 max-md:px-10">
-          <li>Design av nettside</li>
-          <li>
-            Bistand med oppdatering av innhold på nettsiden
-          </li>
-        </ul>
-      </div>
-
-
- {/* ---------------- NEW SECTION ------------------ */}
       {/* Image */}
 
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
@@ -89,14 +65,13 @@ export default function Home() {
         />
       </div>
 
-
       {/* ---------------- NEW SECTION ------------------ */}
       {/* Footer */}
       <div className="max-lg:px-8 lg:px-20 2xl:px-36 p-16 mt-36" id="contact">
         <h2 className={prata.className}>Skal vi ta en kaffe?</h2>
         <p className="text-2xl max-md:text-xl my-5 lg:pr-48">
-          Trenger du hjelp med design av nettside? Ta gjerne
-          kontakt for å høre mer om hvordan jeg kan hjelpe.
+          Trenger du hjelp med design av nettside? Ta gjerne kontakt for å høre
+          mer om hvordan jeg kan hjelpe.
         </p>
         <div>
           <a href="mailto:jorunskalnes@icloud.com">
