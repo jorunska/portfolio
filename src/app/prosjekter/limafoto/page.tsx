@@ -102,29 +102,15 @@ export default function Home() {
       </div>
 
       {/* ---------------- NEW SECTION ------------------ */}
-      {/* Image gallery */}
+      {/* Image */}
 
-      <div className="grid w-full place-items-center">
-        <div className="grid grid-cols-2 gap-10 max-lg:grid-cols-none px-8">
-          <div>
-            <Image
-              className="max-w-full"
-              src="/limafoto-about.png"
-              alt="Skjermbilde av nettsiden til Lima Foto med visning av om-delen"
-              width="500"
-              height="0"
-            />
-          </div>
-          <div>
-            <Image
-              className="max-w-full"
-              src="/limafoto-services.png"
-              alt="Skjermbilde av nettsiden til Lima Foto med visning av tjenester"
-              width="500"
-              height="0"
-            />
-          </div>
-        </div>
+      <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
+        <Image
+          alt="Skjermbilder fra nettsiden til Lima Foto"
+          src="/limafoto-website-pages-2.png"
+          width="1000"
+          height="0"
+        />
       </div>
 
       {/* ---------------- NEW SECTION ------------------ */}
