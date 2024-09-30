@@ -197,6 +197,33 @@ export default function Home() {
               </div>
             </a>
 
+            {/* Project 6 */}
+            <a href="/prosjekter/alimenta" className="projects">
+              <div>
+                <Image
+                  alt="Bilde av en bærebar datamaskin som viser nettsiden til Alimenta"
+                  src="/alimenta-website-mockup.png"
+                  className="object-cover h-80 lg:h-96 shadow-xl  mb-8"
+                  width="650"
+                  height="0"
+                />
+                <div className="space-y-5">
+                  <h3 className={prata.className}>Alimenta</h3>
+                  <p>Nettside for bedrift som leverer ingredienser til matprodusenter</p>
+                  <div className="space-x-4">
+                    <span className="bg-midnight px-2.5 py-0.5">UX</span>
+                    <span className="bg-midnight px-2.5 py-0.5">
+                      Tekst
+                    </span>
+                    <span className="bg-midnight px-2.5 py-0.5">
+                      Grafisk design
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+
             {/* Project */}
             <a href="/prosjekter/indre-matre" className="projects">
               <div>
