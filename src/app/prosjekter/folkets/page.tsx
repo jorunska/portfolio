@@ -36,19 +36,16 @@ export default function Home() {
       {/* Header */}
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-48">
         <div className="w-10/12 max-md:w-full">
-          <h1 className={prata.className}>Norsk kredittforum</h1>
+          <h1 className={prata.className}>Folkets Hagan</h1>
           <div className="space-x-4 my-5">
             <span className="bg-midnight px-2.5 py-0.5">UX</span>
           </div>
           <p className="leading-normal my-5">
-            For Norsk Kredittforum har jeg videreutviklet deres visuelle
-            identitet og designet en ny og mer moderne nettside. Prosjektet ble
+            For Folkets Hagan har jeg designet deres nettside. Prosjektet ble
             gjennomført i forbindelse med min tid i Netspire.
           </p>
           <p className="leading-normal">
-            Norsk Kredittforum er en frivillig organisasjon som skaper møteplasser
-            med fokus på kunnskapsformidlig og nettverksbygging innen økonomi,
-            kreditt og finans.
+            Folkets Hagan er en lokal restaurant og bar som holder til i Nittedal. 
           </p>
         </div>
       </div>
@@ -58,8 +55,8 @@ export default function Home() {
 
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
         <Image
-          alt="Skjermbilde av forsiden til nettsiden til Norsk Kredittforum"
-          src="/kredittforum-website.png"
+          alt="Bilde fra en restaurant med fokus på en rett på en tallerken"
+          src="/folkets-restaurant.jpg"
           className="shadow-lg"
           width="800"
           height="0"
@@ -71,12 +68,9 @@ export default function Home() {
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-28 space-y-5">
         <h2 className={prata.className}>Dette har jeg gjort for Norsk Kredittforum:</h2>
         <ul className="list-disc leading-loose px-14 pt-5 max-md:px-10">
-          <li>
-            Videreutvikling av visuell identitet
-          </li>
           <li>Design av nettside</li>
           <li>
-            Publisering av arrangementer på nettside, sosiale medier og arrangementsverktøy 
+            Bistand med oppdatering av innhold på nettsiden
           </li>
         </ul>
       </div>
@@ -87,8 +81,8 @@ export default function Home() {
 
       <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
         <Image
-          alt="Skjermbilder av nettsiden til Norsk Kredittforum"
-          src="/kredittforum-pages.png"
+          alt="Skjermbilder av nettsiden til Folkets Hagan"
+          src="/folkets-website.png"
           className="shadow-lg"
           width="1000"
           height="0"
