@@ -219,6 +219,29 @@ export default function Home() {
               </div>
             </a>
 
+             {/* Project 1 */}
+             <a href="/prosjekter/haste" className="projects">
+              <div>
+                <Image
+                  alt="Lastebil på vei"
+                  src="/haste-truck.jpg"
+                  className="object-cover h-80 lg:h-96 shadow-xl mb-8"
+                  width="650"
+                  height="0"
+                />
+                <div className="space-y-5">
+                  <h3 className={prata.className}>Haste</h3>
+                  <p>
+                    Transporteringssystem med fokus på smart planlegging og enkel bruk
+                  </p>
+                  <div className="space-x-4">
+                  <span className="bg-midnight px-2.5 py-0.5">UX</span>
+                  <span className="bg-midnight px-2.5 py-0.5">Grafisk design</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
             {/* Project 6 */}
             <a href="/prosjekter/alimenta" className="projects">
               <div>
@@ -305,6 +328,27 @@ export default function Home() {
                   <div className="space-x-4">
                     <span className="bg-midnight px-2.5 py-0.5">Design</span>
                     <span className="bg-midnight px-2.5 py-0.5">Koding</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+              {/* Project */}
+              <a href="/prosjekter/franittedal" className="projects">
+              <div>
+                <Image
+                  alt="En mobil blir holdt med visning av Instagram-profilen til Luup"
+                  src="/franittedal-website.png"
+                  className="object-cover h-80 lg:h-96 shadow-xl mb-8"
+                  width="650"
+                  height="0"
+                />
+                <div className="space-y-5">
+                  <h3 className={prata.className}>Fra Nittedal</h3>
+                  <p>Prosjekt for å fremme bygdas lokale næringsliv</p>
+                  <div className="space-x-4">
+                  <span className="bg-midnight px-2.5 py-0.5">UX</span>
+                  <span className="bg-midnight px-2.5 py-0.5">Grafisk design</span>
                   </div>
                 </div>
               </div>
