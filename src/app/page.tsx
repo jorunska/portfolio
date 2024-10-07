@@ -72,6 +72,30 @@ export default function Home() {
         </p>
         <div className="grid w-full place-items-center">
           <div className="grid grid-cols-2 gap-10 max-lg:grid-cols-none max-md:px-0 px-8 mt-16">
+            {/* Project */}
+            <a href="/prosjekter/luup" className="projects">
+              <div>
+                <Image
+                  alt="En mobil blir holdt med visning av Instagram-profilen til Luup"
+                  src="/luup-some.JPG"
+                  className="object-cover h-80 lg:h-96 shadow-xl mb-8"
+                  width="650"
+                  height="0"
+                />
+                <div className="space-y-5">
+                  <h3 className={prata.className}>Luup</h3>
+                  <p>App for å shoppe klær på en bærekraftig og enkel måte</p>
+                  <div className="space-x-4">
+                    <span className="bg-midnight px-2.5 py-0.5">Tekst</span>
+                    <span className="bg-midnight px-2.5 py-0.5">
+                      Grafisk design
+                    </span>
+                    <span className="bg-midnight px-2.5 py-0.5">SOME</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
             {/* Project 1 */}
             <a href="/prosjekter/happydogs" className="projects">
               <div>
@@ -177,7 +201,7 @@ export default function Home() {
                 <Image
                   alt="Bilde av en bærebar datamaskin som viser nettsiden til Lima Foto"
                   src="/limafoto-website-3.jpg"
-                  className="object-cover h-80 lg:h-96 shadow-xl  mb-8"
+                  className="object-cover h-80 lg:h-96 shadow-xl mb-8"
                   width="650"
                   height="0"
                 />
@@ -201,7 +225,7 @@ export default function Home() {
                 <Image
                   alt="Bilde av en bærebar datamaskin som viser nettsiden til Alimenta"
                   src="/alimenta-website-mockup.png"
-                  className="object-cover h-80 lg:h-96 shadow-xl  mb-8"
+                  className="object-cover h-80 lg:h-96 shadow-xl mb-8"
                   width="650"
                   height="0"
                 />
@@ -235,7 +259,8 @@ export default function Home() {
                 <div className="space-y-5">
                   <h3 className={prata.className}>Norsk Kredittforum</h3>
                   <p>
-                    Nettside for frivillig organisasjon innen finans, økonomi og kreditt
+                    Nettside for frivillig organisasjon innen finans, økonomi og
+                    kreditt
                   </p>
                   <div className="space-x-4">
                     <span className="bg-midnight px-2.5 py-0.5">UX</span>
@@ -256,9 +281,7 @@ export default function Home() {
                 />
                 <div className="space-y-5">
                   <h3 className={prata.className}>Folkets Hagan</h3>
-                  <p>
-                    Nettside for lokal restaurant og bar
-                  </p>
+                  <p>Nettside for lokal restaurant og bar</p>
                   <div className="space-x-4">
                     <span className="bg-midnight px-2.5 py-0.5">UX</span>
                   </div>
