@@ -21,13 +21,13 @@ export default function Home() {
               height="0"
             />
           </a>
-          <a href="#projects" className="px-2 py-3 hover:text-gray-500">
+          <a href="#projects" className="px-1 py-3 hover:text-gray-500">
             Prosjekter
           </a>
-          <a href="/om-meg" className="px-2 py-3 hover:text-gray-500">
+          <a href="/om-meg" className="px-1 py-3 hover:text-gray-500">
             Om meg
           </a>
-          <a href="#contact" className="px-2 py-3 hover:text-gray-500">
+          <a href="#contact" className="px-1 py-3 hover:text-gray-500">
             Kontakt
           </a>
         </div>

@@ -10,7 +10,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col justify-between select-none">
       {/* Navbar */}
-      <nav className="navbar bg-lightbrown max-lg:px-8 lg:px-16 2xl:px-36 fixed w-full">
+
+       <nav className="navbar bg-lightbrown max-lg:px-8 lg:px-16 2xl:px-36 fixed w-full">
         <div className="flex space-x-4 items-center max-sm:space-x-3">
           <a href="/" className="py-1 pr-3">
             <Image
@@ -20,16 +21,16 @@ export default function Home() {
               height="0"
             />
           </a>
-          <a href="/#projects" className="px-2 py-3 hover:text-gray-500">
+          <a href="/#projects" className="px-1 py-3 hover:text-gray-500">
             Prosjekter
           </a>
           <a
             href="/om-meg"
-            className="px-2 py-3 hover:text-gray-500 italic font-bold"
+            className="px-1 py-3 hover:text-gray-500 italic font-bold"
           >
             Om meg
           </a>
-          <a href="#contact" className="px-2 py-3 hover:text-gray-500">
+          <a href="#contact" className="px-1 py-3 hover:text-gray-500">
             Kontakt
           </a>
         </div>
@@ -89,7 +90,7 @@ export default function Home() {
         </div>
       </div>
 
-     {/* ---------------- NEW SECTION ------------------ */}
+      {/* ---------------- NEW SECTION ------------------ */}
       {/* Section 3 - more information about me */}
       <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 space-x-12 max-md:space-x-0 mt-36">
         <div className="w-2/5 max-md:w-full max-sm:pb-0">
@@ -104,18 +105,18 @@ export default function Home() {
           <h2 className={prata.className}>Jeg er en engasjert designer!</h2>
           <p className="leading-normal my-5">
             Min største styrke er mitt store engasjement for både kreativitet og
-            teknologi. Jeg kan hjelpe din bedrift med design av nettside
-            eller andre digitale løsnigner, innholdsproduksjon til sosiale
-            medier, rådgivning og andre designtjenester. 
+            teknologi. Jeg kan hjelpe din bedrift med design av nettside eller
+            andre digitale løsnigner, innholdsproduksjon til sosiale medier,
+            rådgivning og andre designtjenester.
           </p>
           <p>
             I tillegg har jeg kompetanse om brukervennlighet og universell
-            utforming, og leverer alltid tjenester med dette i fokus. 
+            utforming, og leverer alltid tjenester med dette i fokus.
           </p>
         </div>
       </div>
 
-    {/* ---------------- NEW SECTION ------------------ */}
+      {/* ---------------- NEW SECTION ------------------ */}
       {/* Section 4 - more information about me */}
       <div className="flex max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 space-x-12 max-md:space-x-0 mt-36">
         <div className="w-3/5 max-md:pt-10 max-md:w-full">
@@ -144,10 +145,10 @@ export default function Home() {
         </div>
       </div>
 
-   {/* ---------------- NEW SECTION ------------------ */}
-   {/* Reference */}
+      {/* ---------------- NEW SECTION ------------------ */}
+      {/* Reference */}
 
-   <div className="bg-happygreen max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 space-y-5 p-16 mx-20 my-20 max-md:mx-8">
+      <div className="bg-happygreen max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 space-y-5 p-16 mx-20 my-20 max-md:mx-8">
         <h3 className={prata.className}>Hva andre sier om meg</h3>
         <p>
           Jorun har vært en stor ressurs og vært en viktig bidragsyter for å
@@ -168,14 +169,12 @@ export default function Home() {
 
       {/* ---------------- NEW SECTION ------------------ */}
       {/* Footer */}
-      <div
-        className="max-lg:px-8 lg:px-20 2xl:px-36 p-16 mt-8"
-        id="contact"
-      >
+      <div className="max-lg:px-8 lg:px-20 2xl:px-36 p-16 mt-8" id="contact">
         <h2 className={prata.className}>Skal vi ta en kaffe?</h2>
         <p className="text-2xl max-md:text-xl my-5 lg:pr-48">
           Ønsker du å bli bedre kjent eller har et spennende prosjekt på gang?
-          Ta gjerne kontakt for å diskutere et samarbeid eller for å ta en uforpliktende prat!
+          Ta gjerne kontakt for å diskutere et samarbeid eller for å ta en
+          uforpliktende prat!
         </p>
         <div>
           <a href="mailto:jorunskalnes@icloud.com">
@@ -194,8 +193,14 @@ export default function Home() {
           className="underline underline-offset-2"
         >
           Følg meg på LinkedIn
-        </a>{" "}og <a href="https://www.instagram.com/skaalnes.no/"
-          className="underline underline-offset-2">Instagram</a>
+        </a>{" "}
+        og{" "}
+        <a
+          href="https://www.instagram.com/skaalnes.no/"
+          className="underline underline-offset-2"
+        >
+          Instagram
+        </a>
       </footer>
     </main>
   );
