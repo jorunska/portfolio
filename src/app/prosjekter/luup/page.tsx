@@ -46,12 +46,15 @@ export default function Home() {
             Jeg ble kontaktet av Luup gjennom tjenesten Muttu, og vi startet
             samarbeidet i september 2024. Min rolle er å være innholdsprodusent
             til sosiale medier. Her hjelper jeg til med tekst, foto og video,
-            planlegging og publisering av innhold til sosiale medier.
+            planlegging og publisering av innhold til sosiale medier. Jeg
+            stiller også som rådgiver innen brukervennlighet for applikasjon og
+            nettside.
           </p>
           <p className="leading-normal">
             Luup er en tjeneste hvor brukere kan shoppe klær på en bærekraftig
             måte. Gjennom en form for bytteordning, kan man bruke oppsamlede
-            poeng for å handle klær.
+            poeng for å handle klær. Tjenesten er fortsatt under utvikling, og
+            vil lanseres i løpet av 2025.
           </p>
         </div>
       </div>
@@ -75,17 +78,18 @@ export default function Home() {
         <h2 className={prata.className}>Dette gjør jeg for Luup:</h2>
         <ul className="list-disc leading-loose px-14 pt-5 max-md:px-10">
           <li>
-            Planlegging og publisering av innlegg til Instagram, Facebook og TikTok
+            Planlegging og publisering av innlegg til Instagram, Facebook og
+            TikTok
           </li>
           <li>Foto og video</li>
-          <li>
-            Tekstproduksjon
-          </li>
+          <li>Tekstproduksjon</li>
           <li>Brukertest og innspill på tjeneste</li>
           <li>Grafisk design til sosiale medier</li>
+          <li>Design av bannere</li>
+          <li>Rådgivning innen brukervennlighet for applikasjon og nettside</li>
+          <li>Deltakelse på messe</li>
         </ul>
       </div>
-
 
       {/* ---------------- NEW SECTION ------------------ */}
       {/* Image gallery */}
@@ -111,6 +115,19 @@ export default function Home() {
             />
           </div>
         </div>
+      </div>
+
+      {/* ---------------- NEW SECTION ------------------ */}
+      {/* Image */}
+
+      <div className="max-md:flex-col max-lg:px-8 lg:px-20 2xl:px-36 mt-20 place-self-center">
+        <Image
+          alt="Visning av to bannere designet for Luup"
+          src="/luup-banner.png"
+          className="shadow-lg"
+          width="800"
+          height="0"
+        />
       </div>
 
       {/* ---------------- NEW SECTION ------------------ */}
