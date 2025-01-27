@@ -164,7 +164,7 @@ export default function Home() {
       </div>
 
       <footer className="footer text-center p-6 text-white bg-stone-700">
-        Designet og utviklet av Jorun Skålnes | 2024 |{" "}
+        Designet og utviklet av Jorun Skålnes | 2025 |{" "}
         <a
           href="https://www.linkedin.com/in/jorunskalnes/"
           className="underline underline-offset-2"
