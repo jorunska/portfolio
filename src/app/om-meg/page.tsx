@@ -50,7 +50,7 @@ export default function Home() {
         <div className="w-3/5 max-md:pt-10 max-md:w-full">
           <h2 className={prata.className}>Om meg</h2>
           <p className="leading-normal my-5">
-            Jeg har over tre års erfaring som interaksjonsdesigner, hvor jeg har
+            Jeg har over fem års erfaring som interaksjonsdesigner, hvor jeg har
             designet digitale løsninger for små og større kundegrupper. I
             tillegg har jeg bistått som rådgiver, prosjektleder og
             innholdsprodusent.
@@ -169,22 +169,7 @@ export default function Home() {
 
       {/* ---------------- NEW SECTION ------------------ */}
       {/* Footer */}
-      <div className="max-lg:px-8 lg:px-20 2xl:px-36 p-16 mt-8" id="contact">
-        <h2 className={prata.className}>Skal vi ta en kaffe?</h2>
-        <p className="text-2xl max-md:text-xl my-5 lg:pr-48">
-          Ønsker du å bli bedre kjent eller har et spennende prosjekt på gang?
-          Ta gjerne kontakt for å diskutere et samarbeid eller for å ta en
-          uforpliktende prat!
-        </p>
-        <div>
-          <a href="mailto:jorunskalnes@icloud.com">
-            {" "}
-            <button className="text-white py-2 px-4 hover:bg-black my-5">
-              Kontakt meg
-            </button>
-          </a>
-        </div>
-      </div>
+     
 
       <footer className="footer text-center p-6 text-white bg-stone-700">
         Designet og utviklet av Jorun Skålnes | 2025 |{" "}

@@ -126,22 +126,7 @@ export default function Home() {
 
       {/* ---------------- NEW SECTION ------------------ */}
       {/* Footer */}
-      <div className="max-lg:px-8 lg:px-20 2xl:px-36 p-16 mt-36" id="contact">
-        <h2 className={prata.className}>Skal vi ta en kaffe?</h2>
-        <p className="text-2xl max-md:text-xl my-5 lg:pr-48">
-          Har du en digital lærebok eller kurs du ønsker å utvikle? Eller
-          trenger hjelp med design av andre digitale løsnigner? Gjerne ta
-          kontakt for en uforpliktende prat.
-        </p>
-        <div>
-          <a href="mailto:jorunskalnes@icloud.com">
-            {" "}
-            <button className="text-white py-2 px-4 hover:bg-black my-5">
-              Kontakt meg
-            </button>
-          </a>
-        </div>
-      </div>
+ 
 
       <footer className="footer text-center p-6 text-white bg-stone-700">
         Designet og utviklet av Jorun Skålnes | 2025 |{" "}
