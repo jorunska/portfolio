@@ -27,9 +27,6 @@ export default function Home() {
           <a href="/om-meg" className="px-1 py-3 hover:text-gray-500">
             Om meg
           </a>
-          <a href="#contact" className="px-1 py-3 hover:text-gray-500">
-            Kontakt
-          </a>
         </div>
       </nav>
 
@@ -43,13 +40,6 @@ export default function Home() {
             brukervennlige løsninger, innholdsproduksjon og andre
             designtjenester.
           </p>
-          <div>
-            <a href="#contact">
-              <button className="text-white py-2 px-4 hover:bg-black my-5">
-                Kontakt meg
-              </button>
-            </a>
-          </div>
         </div>
         <div className="w-2/5 max-md:w-full">
           <Image

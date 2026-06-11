@@ -26,9 +26,7 @@ export default function Home() {
           <a href="/om-meg" className="px-1 py-3 hover:text-gray-500">
             Om meg
           </a>
-          <a href="#contact" className="px-1 py-3 hover:text-gray-500">
-            Kontakt
-          </a>
+      
         </div>
       </nav>
 
