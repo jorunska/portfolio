@@ -168,7 +168,7 @@ export default function Home() {
       {/* ---------------- NEW SECTION ------------------ */}
       {/* Footer */}
      
-
+      <div className="pt-6">
       <footer className="footer text-center p-6 text-white bg-stone-700">
         Designet og utviklet av Jorun Skålnes | 2025 |{" "}
         <a
@@ -185,6 +185,7 @@ export default function Home() {
           Instagram
         </a>
       </footer>
+      </div>
     </main>
   );
 }

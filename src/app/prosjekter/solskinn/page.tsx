@@ -184,6 +184,7 @@ export default function Home() {
       {/* Footer */}
 
 
+      <div className="pt-6">
       <footer className="footer text-center p-6 text-white bg-stone-700">
         Designet og utviklet av Jorun Skålnes | 2025 |{" "}
         <a
@@ -191,9 +192,16 @@ export default function Home() {
           className="underline underline-offset-2"
         >
           Følg meg på LinkedIn
-        </a>{" "} og <a href="https://www.instagram.com/skaalnes.no/"
-          className="underline underline-offset-2">Instagram</a>
+        </a>{" "}
+        og{" "}
+        <a
+          href="https://www.instagram.com/skaalnes.no/"
+          className="underline underline-offset-2"
+        >
+          Instagram
+        </a>
       </footer>
+      </div>
     </main>
   );
 }
