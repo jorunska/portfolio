@@ -390,7 +390,7 @@ export default function Home() {
         <div className="w-3/5 max-md:pt-10 max-md:w-full">
           <h2 className={prata.className}>Om meg</h2>
           <p className="leading-normal my-5">
-            Jeg har over tre års erfaring som interaksjonsdesigner, hvor jeg har
+            Jeg har over fem års erfaring som interaksjonsdesigner, hvor jeg har
             designet digitale løsninger for små og større kundegrupper. I
             tillegg har jeg bistått som rådgiver, prosjektleder og
             innholdsprodusent.
