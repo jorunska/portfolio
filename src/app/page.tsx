@@ -392,7 +392,7 @@ export default function Home() {
           <p className="leading-normal my-5">
             Jeg har over fem års erfaring som interaksjonsdesigner, hvor jeg har
             designet digitale løsninger for små og større kundegrupper. I
-            tillegg har jeg bistått som rådgiver, prosjektleder og
+            tillegg har jeg bistått som prosjektleder, rådgiver og
             innholdsprodusent.
           </p>
           <div>
